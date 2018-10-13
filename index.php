@@ -13,11 +13,11 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
 		<!-- Custom styles for this template -->
-		<link href="custom.css" rel="stylesheet">
+		<link href="css/custom.css" rel="stylesheet">
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-			<a class="navbar-brand" href="#">Top navbar</a>
+				<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+			<a class="navbar-brand" href="#">Denis Zielonka</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -27,11 +27,23 @@
 						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Link</a>
+						<a class="nav-link" href="#">Über mich</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link disabled" href="#">Disabled</a>
+						<a class="nav-link disabled" href="#">Plattformen</a>
 					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#">Skills</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#">Arbeitserfahrung</a>
+					</li>	
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#">Kontakt</a>
+					</li>			
 				</ul>
 				<form class="form-inline mt-2 mt-md-0">
 					<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -39,6 +51,7 @@
 				</form>
 			</div>
 		</nav>
+		<div class="vorschau"></div>
 		<div class="container">
 			<div class="jumbotron">
 				<h1>Navbar example</h1>
