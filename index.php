@@ -11,7 +11,6 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-
 		<link href="css/custom.css" rel="stylesheet">
 	</head>
 	<body>
@@ -106,7 +105,7 @@
 					</div>
 				</div>
 				<div class="row">
-						<div class="col-md-12">
+						<div class="col-md-9">
 							<form>
 								<div class="form-group row">
 									<label for="inputEmail3" class="col-sm-2 form-control-label">Email</label>
@@ -127,31 +126,36 @@
 									</div>
 								</div>
 								<div class="form-group row">
-									<label class="col-sm-2">Checkbox</label>
 									<div class="col-sm-5">
 										<div class="checkbox">
 											<label>
-												<input type="checkbox"> Check me out
+												<input required="" type="checkbox"> Ich habe die Datenschutzerklaerung gelesen und akzeptiert.
 											</label>
 										</div>
 									</div>
 								</div>
 								<div class="form-group row">
 									<div class="col-sm-offset-2 col-sm-10">
-										<button type="submit" class="btn btn-secondary">Sign in</button>
+										<button type="submit" class="btn btn-secondary">Absenden</button> 
 									</div>
 								</div>
 							</form>
+						</div>
+						<div class="col-md-3">
+							
 						</div>
 					</div>
 			</div>
 		</div>
 		<footer>
+			<div>
+				
+			</div>
 			<div class="plattformen" id="plattformen">
 				<div class="container">
-					<div class="row text-center">
-						<div class="col-md-12 h1 p-4">
-							
+					<div class="row">
+						<div class="col-md-12">
+							Test
 						</div>					
 					</div>
 				</div>
