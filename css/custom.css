@@ -1,5 +1,19 @@
 .vorschau {
 	background-image: url("../img/box2bild2.jpg");
 	background-attachment: fixed;
-	height: 900px;
+	height: 938px;
+}
+
+.uebermich {
+	background-color: #343a40;
+	color:white;
+}
+
+.skills {
+	background-image: url("../img/boxbild2.jpg");
+	background-attachment: fixed;
+}
+
+.vorschau .text {
+	margin-top: 400px;
 }
