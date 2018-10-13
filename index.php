@@ -39,7 +39,6 @@
 				</form>
 			</div>
 		</nav>
-		<div>Test</div>
 		<div class="container">
 			<div class="jumbotron">
 				<h1>Navbar example</h1>
