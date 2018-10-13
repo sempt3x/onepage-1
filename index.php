@@ -105,18 +105,7 @@
 						Kontakt
 					</div>
 				</div>
-			</div>
-		</div>
-		<footer>
-			<div class="plattformen" id="plattformen">
-				<div class="container">
-					<div class="row text-center">
-						<div class="col-md-12 h1 p-4">
-							
-						</div>					
-					</div>
-
-					<div class="row">
+				<div class="row">
 						<div class="col-md-12">
 							<form>
 								<div class="form-group row">
@@ -154,6 +143,16 @@
 								</div>
 							</form>
 						</div>
+					</div>
+			</div>
+		</div>
+		<footer>
+			<div class="plattformen" id="plattformen">
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-md-12 h1 p-4">
+							
+						</div>					
 					</div>
 				</div>
 			</div>
