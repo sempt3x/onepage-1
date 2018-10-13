@@ -7,8 +7,8 @@
 		<meta name="author" content="">
 		<link rel="icon" href="../../../../favicon.ico">
 
-		<title>Top navbar example for Bootstrap</title>
-
+		<title>Denis Zielonka - Website</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
@@ -16,7 +16,7 @@
 		<link href="css/custom.css" rel="stylesheet">
 	</head>
 	<body>
-				<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 			<a class="navbar-brand" href="#">Denis Zielonka</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -24,49 +24,144 @@
 			<div class="collapse navbar-collapse" id="navbarCollapse">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="#vorschau">Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Über mich</a>
+						<a class="nav-link" href="#uebermich">Über mich</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link disabled" href="#">Plattformen</a>
+						<a class="nav-link disabled" href="#portfolio">Portfolio</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link disabled" href="#">Portfolio</a>
+						<a class="nav-link disabled" href="#skills">Skills</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link disabled" href="#">Skills</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link disabled" href="#">Arbeitserfahrung</a>
+						<a class="nav-link disabled" href="#erfahrung">Arbeitserfahrung</a>
 					</li>	
 					<li class="nav-item">
-						<a class="nav-link disabled" href="#">Kontakt</a>
+						<a class="nav-link disabled" href="#kontakt">Kontakt</a>
 					</li>			
 				</ul>
-				<form class="form-inline mt-2 mt-md-0">
-					<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-				</form>
 			</div>
 		</nav>
-		<div class="vorschau"></div>
+		<div class="vorschau" id="vorschau">
 		<div class="container">
-			<div class="jumbotron">
-				<h1>Navbar example</h1>
-				<p class="lead">This example is a quick exercise to illustrate how the top-aligned navbar works. As you scroll, this navbar remains in its original position and moves with the rest of the page.</p>
-				<a class="btn btn-lg btn-primary" href="../../components/navbar/" role="button">View navbar docs &raquo;</a>
+			<div class="row h1 text-center">
+				<div class="col-md-12 text">
+				  	Denis Zielonka
+				</div>
 			</div>
 		</div>
+		</div>
+		<div class="uebermich pb-4" id="uebermich">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-12 h1 p-4">
+						Über mich
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+					  	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+					</div>
+					<div class="col-md-6 text-right">
+					  	Bild
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="portfolio" id="portfolio">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-12 h1 p-4">
+						Portfolio
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="skills" id="skills">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-12 h1 p-4">
+						Skills
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="erfahrung" id="erfahrung">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-12 h1 p-4">
+						Erfahrung
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="kontakt" id="kontakt">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-12 h1 p-4">
+						Kontakt
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="plattformen" id="plattformen">
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-md-12 h1 p-4">
+							
+						</div>					
+					</div>
+
+					<div class="row">
+						<div class="col-md-12">
+							<form>
+								<div class="form-group row">
+									<label for="inputEmail3" class="col-sm-2 form-control-label">Email</label>
+									<div class="col-sm-5">
+										<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+									</div>
+								</div>
+								<div class="form-group row">
+									<label for="inputBetreff" class="col-sm-2 form-control-label">Betreff</label>
+									<div class="col-sm-5">
+										<input type="text" class="form-control" id="inputBetreff" placeholder="Betreff">
+									</div>
+								</div>
+								<div class="form-group row">
+									<label for="inputText" class="col-sm-2 form-control-label">Text</label>
+									<div class="col-sm-5">
+										<textarea id="my-input" class="form-control" rows="3" wfd-id="91"></textarea>
+									</div>
+								</div>
+								<div class="form-group row">
+									<label class="col-sm-2">Checkbox</label>
+									<div class="col-sm-5">
+										<div class="checkbox">
+											<label>
+												<input type="checkbox"> Check me out
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="form-group row">
+									<div class="col-sm-offset-2 col-sm-10">
+										<button type="submit" class="btn btn-secondary">Sign in</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 		<!-- Bootstrap core JavaScript
 		================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-		<script src="../../../../assets/js/vendor/popper.min.js"></script>
-		<script src="../../../../dist/js/bootstrap.min.js"></script>
-		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-		<script src="../../../../assets/js/ie10-viewport-bug-workaround.js"></script>
+		<script type="text/javascript" src="js/scrolling-nav.js"></script>
 	</body>
 </html>
