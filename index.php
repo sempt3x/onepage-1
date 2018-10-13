@@ -9,10 +9,9 @@
 
 		<title>Denis Zielonka - Website</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<!-- Bootstrap CSS -->
+
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
-		<!-- Custom styles for this template -->
 		<link href="css/custom.css" rel="stylesheet">
 	</head>
 	<body>
@@ -23,7 +22,7 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarCollapse">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
+					<li class="nav-item">
 						<a class="nav-link" href="#vorschau">Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
