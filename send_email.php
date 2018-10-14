@@ -8,7 +8,7 @@ $empfaenger = "info@denis-zielonka.com"; //Empfänger-Adresse
 $mail_cc = ""; //CC-Adresse, diese E-Mail-Adresse bekommt einer weitere Kopie
 $betreff = "Neue Kontaktanfrage von denis-zielonka.com"; //Betreff der Email
 
-$url_ok = "https://www.denis-zielonka.com/neu"; //Zielseite, wenn E-Mail erfolgreich versendet wurde
+$url_ok = "https://www.denis-zielonka.com/"; //Zielseite, wenn E-Mail erfolgreich versendet wurde
 $url_fehler = "https://www.denis-zielonka.com/error"; //Zielseite, wenn E-Mail nicht gesendet werden konnte
 
 
