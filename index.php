@@ -285,13 +285,11 @@
 			<div class="row">
 				<div class="col-md-12 text-center p-5 text-light">
 					Copyright by Denis Zielonka | <a href="datenschutzerklaerung.php">Datenschutzerklaerung</a> | <a href="impressum.php">Impressum</a>
+					<p>Version 1.0</p>
 				</div>
 			</div>
 		</div>
 	</footer>
-	<!-- Bootstrap core JavaScript
-			================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
 	<script type="text/javascript" src="js/scrolling-nav.js"></script>
 </body>
 
