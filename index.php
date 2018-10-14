@@ -78,9 +78,7 @@
 					Sehr geehrte Damen und Herren,
 					<br>
 					<br>
-					mein Name ist Denis Zielonka und das hier ist meine private Website. Hier finden sie meine Skills,
-					Arbeitserfahrungen, Portfolio sowie Möglichkeiten, mich zu kontaktieren. Ich bin derzeit als Full Stack Developer
-					tätig.
+					mein Name ist Denis Zielonka und das hier ist meine private Website. Hier finden sie meine Skills, Arbeitserfahrungen, Portfolio sowie Möglichkeiten, mich zu kontaktieren. Ich bin derzeit als Full Stack Developer tätig. Ich habe meine Ausbildung als Informatikkaufmann erfolgreich abgeschlossen.
 				</div>
 				<div class="col-md-6 text-center">
 					<div class="profil">
