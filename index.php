@@ -247,7 +247,7 @@
 							<div class="col-sm-10">
 								<div class="checkbox">
 									<label>
-										<input required="" type="checkbox"> Ich habe die <a href="">Datenschutzerklaerung</a> gelesen und akzeptiert.
+										<input required="" type="checkbox"> Ich habe die <a href="datenschutzerklaerung.php" onclick="return !window.open(this.href, 'Denis Zielonka', 'width=500,height=500')">Datenschutzerklaerung</a> gelesen und akzeptiert.
 									</label>
 								</div>
 							</div>
