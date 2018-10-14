@@ -78,7 +78,9 @@
 					Sehr geehrte Damen und Herren,
 					<br>
 					<br>
-					mein Name ist Denis Zielonka und das hier ist meine private Website. Hier finden sie meine Skills, Arbeitserfahrungen, Portfolio sowie Möglichkeiten, mich zu kontaktieren. Ich bin derzeit als Full Stack Developer tätig. Ich habe meine Ausbildung als Informatikkaufmann erfolgreich abgeschlossen.
+					mein Name ist Denis Zielonka und das hier ist meine private Website. Hier finden sie meine Skills,
+					Arbeitserfahrungen, Portfolio sowie Möglichkeiten, mich zu kontaktieren. Ich bin derzeit als Full Stack Developer
+					tätig. Ich habe meine Ausbildung als Informatikkaufmann erfolgreich abgeschlossen.
 				</div>
 				<div class="col-md-6 text-center">
 					<div class="profil">
@@ -245,7 +247,8 @@
 							<div class="col-sm-10">
 								<div class="checkbox">
 									<label>
-										<input required="" type="checkbox"> Ich habe die <a href="datenschutzerklaerung.php" onclick="return !window.open(this.href, 'Denis Zielonka', 'width=500,height=500')">Datenschutzerklaerung</a> gelesen und akzeptiert.
+										<input required="" type="checkbox"> Ich habe die <a href="datenschutzerklaerung.php" onclick="return !window.open(this.href, 'Denis Zielonka', 'width=500,height=500')">Datenschutzerklaerung</a>
+										gelesen und akzeptiert.
 									</label>
 								</div>
 							</div>
