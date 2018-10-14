@@ -10,6 +10,11 @@
 		<title>Denis Zielonka - Website</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+	    <!-- jQuery first, then Popper.js and Bootstrap JS. -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 		<link href="css/custom.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
@@ -28,17 +33,18 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#uebermich">Über mich</a>
 					</li>
+					<!--
 					<li class="nav-item">
 						<a class="nav-link disabled" href="#portfolio">Portfolio</a>
+					</li>-->
+					<li class="nav-item">
+						<a class="nav-link" href="#skills">Skills</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link disabled" href="#skills">Skills</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link disabled" href="#erfahrung">Arbeitserfahrung</a>
+						<a class="nav-link" href="#erfahrung">Arbeitserfahrung</a>
 					</li>	
 					<li class="nav-item">
-						<a class="nav-link disabled" href="#kontakt">Kontakt</a>
+						<a class="nav-link" href="#kontakt">Kontakt</a>
 					</li>			
 				</ul>
 			</div>
@@ -65,9 +71,13 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-					  	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+					  	Sehr geehrte Damen und Herren, 
+					  	<br>
+					  	<br>
+					  	mein Name ist Denis Zielonka und das hier ist meine Private Website. Hier finden sie meine Skills, Arbeitserfahrung, Portfolio sowie Möglichkeiten, mich zu Kontaktieren. Ich bin derzeit als Full Stack Developer tätig. 
+
 					</div>
-					<div class="col-md-6 text-right">
+					<div class="col-md-6 text-center">
 					  	<div class="profil">
 					  		
 					  	</div>
@@ -146,30 +156,36 @@
 				</div>
 				<div class="row">
 						<div class="col-md-7">
-							<form>
+							<form method="post" action="send_email.php">
 								<div class="form-group row">
-									<label for="inputEmail3" class="col-sm-2 form-control-label">Email</label>
+									<label for="Name" class="col-sm-2 form-control-label">Name</label>
 									<div class="col-sm-8">
-										<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+										<input type="text=" name="Name" class="form-control" id="Name" placeholder="Name">
 									</div>
 								</div>
 								<div class="form-group row">
-									<label for="inputBetreff" class="col-sm-2 form-control-label">Betreff</label>
+									<label for="Email" class="col-sm-2 form-control-label">Email</label>
 									<div class="col-sm-8">
-										<input type="text" class="form-control" id="inputBetreff" placeholder="Betreff">
+										<input type="email" name="Email" class="form-control" id="Email" placeholder="Email">
 									</div>
 								</div>
 								<div class="form-group row">
-									<label for="inputText" class="col-sm-2 form-control-label">Text</label>
+									<label for="Betreff" class="col-sm-2 form-control-label">Betreff</label>
 									<div class="col-sm-8">
-										<textarea id="my-input" class="form-control" rows="3" wfd-id="91"></textarea>
+										<input type="text" name="Betreff" class="form-control" id="Betreff" placeholder="Betreff">
+									</div>
+								</div>
+								<div class="form-group row">
+									<label for="Nachricht" class="col-sm-2 form-control-label">Nachricht</label>
+									<div class="col-sm-8">
+										<textarea id="Nachricht" name="Nachricht" class="form-control" rows="3" wfd-id="91"></textarea>
 									</div>
 								</div>
 								<div class="form-group row">
 									<div class="col-sm-10">
 										<div class="checkbox">
 											<label>
-												<input required="" type="checkbox"> Ich habe die Datenschutzerklaerung gelesen und akzeptiert.
+												<input required="" type="checkbox"> Ich habe die <a href=""></a>Datenschutzerklaerung gelesen und akzeptiert.
 											</label>
 										</div>
 									</div>
@@ -181,18 +197,16 @@
 								</div>
 							</form>
 						</div>
-						<div class="col-md-5 ">
+						<div class="col-md-5 col-12">
 							<div class="plattformen" id="plattformen">
-									
-										<div class="text-left">
-											<ul>
-												<li><div class="fab fa-twitter fa-w-12 fa-4x"></div></li>
-												<li><div class="fab fa-linkedin fa-w-12 fa-4x"></div></li>
-												<li><div class="fab fa-github fa-w-12 fa-4x"></div></li>
-												<li><div class="fab fa-xing-square fa-w-12 fa-4x"></div></li>
-											</ul>
-										</div>					
-									
+								<div class="text-left">
+									<ul>
+										<li><a href="https://twitter.com/sempt3x"><div class="fab fa-twitter fa-w-12 fa-4x"></div></a></li>
+										<li><a href="https://www.linkedin.com/in/denis-zakhaev-315513170"><div class="fab fa-linkedin fa-w-12 fa-4x"></div></a></li>
+										<li><a href="https://github.com/sempt3x"><div class="fab fa-github fa-w-12 fa-4x"></div></a></li>
+										<li><a href="https://www.xing.com/profile/Denis_Zielonka"><div class="fab fa-xing-square fa-w-12 fa-4x"></div></a></li>
+									</ul>
+								</div>					
 							</div>
 						</div>
 					</div>
