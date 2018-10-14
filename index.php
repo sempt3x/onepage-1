@@ -179,7 +179,7 @@
 		<div class="container">
 			<div class="row text-center">
 				<div class="col-md-12 h1 p-4">
-					Erfahrung
+					Arbeitserfahrung
 					<hr>
 				</div>
 				<div class="text-left">
