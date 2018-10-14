@@ -179,7 +179,7 @@
 									<div class="col-sm-10">
 										<div class="checkbox">
 											<label>
-												<input required="" type="checkbox"> Ich habe die <a href=""></a>Datenschutzerklaerung gelesen und akzeptiert.
+												<input required="" type="checkbox"> Ich habe die <a href="">Datenschutzerklaerung</a> gelesen und akzeptiert.
 											</label>
 										</div>
 									</div>
