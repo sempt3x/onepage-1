@@ -1,3 +1,5 @@
+/*Enzelne Bereiche */
+
 .vorschau {
 	background-image: url("../img/box2bild2.jpg");
 	background-attachment: fixed;
@@ -26,19 +28,7 @@
 	background-color: #9cb708;
 }
 
-.plattformen {
-	color:black;
-}
-
-.plattformen ul {
-	list-style-type: none;
-}
-
-.plattformen li {
-	padding-right: 28px;
-	list-style: none;
-	float: left;
-}
+/*Footer Bereich */
 
 footer {
 	width:100%;
@@ -55,9 +45,27 @@ footer a,a:hover,a:active {
 	text-decoration: none;
 }
 
+.plattformen {
+	color:black;
+}
+
+.plattformen ul {
+	list-style-type: none;
+}
+
+.plattformen li {
+	padding-right: 28px;
+	list-style: none;
+	float: left;
+}
+
+/*Navbar Bereich */
+
 .navbar {
 	opacity: 0.9;
 }
+
+/*Navbar Profilbild */
 
 .profil {
 	background-color: yellow;
