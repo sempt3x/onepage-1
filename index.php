@@ -90,7 +90,6 @@
 			</div>
 		</div>
 	</div>
-	<div></div>
 	<div class="portfolio p-4" id="portfolio">
 		<div class="container">
 			<div class="row text-center">
@@ -265,7 +264,7 @@
 					<div class="plattformen" id="plattformen">
 						<div class="text-left">
 							<ul>
-								<li><a href="https://twitter.com/sempt3x">
+								<li><a href="">
 										<div class="fab fa-twitter fa-w-12 fa-4x"></div>
 									</a></li>
 								<li><a href="https://www.linkedin.com/in/denis-zakhaev-315513170">
