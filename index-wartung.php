@@ -40,6 +40,7 @@
 			<div class="row">
 				<div class="col-md-12 text-center h3">
 					<a href="impressum.php">Impressum</a>
+					<a href="datenschutzerklaerung.php">Datenschutzerklärung</a>
 				</div>
 			</div>
 		</div>
