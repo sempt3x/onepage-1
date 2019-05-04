@@ -42,14 +42,3 @@
 </body>
 
 </html>
-
-<?php 
-
-function sempt3x ()
-{
-	echo "HI";
-}
-
-sempt3x ();
-
-?>
