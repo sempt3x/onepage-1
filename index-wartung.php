@@ -33,7 +33,7 @@
 				</div>
 			</div>
 			<div class="row text-center">
-				<div>
+				<div class="col-md-12 text-center">
 					Derzeit in Wartung!
 				</div>
 			</div>
