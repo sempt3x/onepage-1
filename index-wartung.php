@@ -33,7 +33,7 @@
 				</div>
 			</div>
 			<div class="row text-center">
-				<div class="col-md-12 text-center">
+				<div class="col-md-12 text-center h2">
 					Derzeit in Wartung!
 				</div>
 			</div>
@@ -42,3 +42,14 @@
 </body>
 
 </html>
+
+<?php 
+
+function sempt3x ()
+{
+	echo "HI";
+}
+
+sempt3x ();
+
+?>
