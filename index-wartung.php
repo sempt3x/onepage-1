@@ -33,8 +33,13 @@
 				</div>
 			</div>
 			<div class="row text-center">
-				<div class="col-md-12 text-center h2">
+				<div class="col-md-12 text-center h3">
 					Derzeit in Wartung!
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center h3">
+					<a href="impressum.php">Impressum</a>
 				</div>
 			</div>
 		</div>
