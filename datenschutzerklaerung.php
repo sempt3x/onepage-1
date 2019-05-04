@@ -3,7 +3,7 @@
 <html>
 
 <head>
-<meta content="text/html; charset=ISO-8859-1" /> 
+<meta content="text/html; utf-8" /> 
     <title>Datenschutzerklärung</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
         crossorigin="anonymous">
@@ -15,7 +15,7 @@
 
             <div class="col-md-12 col-sm-12">
                 <a class="h4" href="index.php">
-                    <- Zurück</a> <hr>
+                    <- Zur&uml;ck</a> <hr>
                         <h2>1. Datenschutz auf einen Blick</h2>
                         <hr>
                         <h3>Allgemeine Hinweise</h3>

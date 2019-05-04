@@ -5,7 +5,6 @@
 
 <head>
 	<meta http-equiv="Pragma" content="no-cache">
-	<meta content="text/html; charset=ISO-8859-1" /> 
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
 	<meta name="author" content="">

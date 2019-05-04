@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-md-12 col-sm-12">
                 <a class="h4" href="index.php">
-                    <- Zurück</a> <hr>
+                    <- Zur&uml;ck</a> <hr>
                         <h2>Impressum</h2>
                         <hr>
                         <div class="row">

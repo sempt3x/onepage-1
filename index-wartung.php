@@ -1,7 +1,6 @@
 <?php 
 ?>
 <!DOCTYPE html>
-<meta content="text/html; charset=ISO-8859-1" /> 
 <html lang="de">
 
 <head>
