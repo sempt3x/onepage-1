@@ -94,11 +94,7 @@ a:active {
 }
 
 
-/* Skills Progresbar */
-
-.progress-bar {
-    color: black;
-}
+/* Standard */
 
 p{
     font-family: Verdana, Geneva, sans-serif;
@@ -113,6 +109,11 @@ p{
 }
 
 
+/* Skills Progresbar */
+
+.progress-bar {
+    color: black;
+}
 
 /* Media Querys */
 
