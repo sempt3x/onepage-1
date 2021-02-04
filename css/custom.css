@@ -1,36 +1,36 @@
 /*Enzelne Bereiche */
 
-.vorschau {
-    background-image: url("../img/box2bild2.jpg");
-    background-attachment: fixed;
-    height: 938px;
+.preview {
+    background: rgb(2,0,36);
+    background: linear-gradient(129deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 24%, rgba(0,212,255,1) 100%);
+    height: 100vh;
 }
 
 .aboutme {
     background-color: white;
     color: black;
-    height: 938px;
+    height: 100vh;
 }
 
 .skills {
     background-image: url("../img/boxbild2.jpg");
     background-attachment: fixed;
-    height: 938px;
+    height: 100vh;
 }
 
 .experience {
     background-color: white;
-    height: 938px;
+    height: 100vh;
 }
 
-.vorschau .text {
+.preview .text {
     margin-top: 400px;
 }
 
 .portfolio {
     background-color: #9cb708;
     display: none;
-    height: 938px;
+    height: 100vh;
 }
 
 /*Footer Bereich */
@@ -121,7 +121,7 @@ p{
         margin-top: 20px;
         margin-left: 0px;
     }
-    .vorschau {
+    .preview {
         width: 100%;
         height: auto;
         color: white;
