@@ -1,1 +1,1 @@
-# www.denis-zielonka.com CV Site
+# CV One Pager Site
